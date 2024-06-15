@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* colors */
+  --color-black: #000000;
+  --color-red: #ae1332;
+  --color-green: #a4cb66;
+  --color-yellow: #f5ce13;
+  --color-white: #ffffff;
+}
+
+.container {
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol,
+li,
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+section {
+  background-color: var(--color-red);
+}
+
+header,
+footer {
+  --color-white: #ffffff;
+}
