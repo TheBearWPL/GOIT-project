@@ -37,3 +37,13 @@ header,
 footer {
   --color-white: #ffffff;
 }
+
+/* [IMPORT CSS] contains under that message*/
+@import '../sass/header.scss';
+@import '../sass/section1.scss';
+@import '../sass/section2.scss';
+@import '../sass/section3.scss';
+@import '../sass/section4.scss';
+@import '../sass/footer.scss';
+@import '../sass/modal1.scss';
+@import '../sass/modal2.scss';
