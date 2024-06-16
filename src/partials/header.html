@@ -1,5 +1,5 @@
 <!-- START --- dodany HEAD żeby style wyświetlić -->
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
-  </head>
+  </head> -->
 <!-- END ---dodany HEAD żeby style wyświetlić -->
 
 
@@ -27,7 +27,7 @@
 
     <a class="logo" href="./index.html">
         <svg id="logo-icon" class="logo-icon" width="16" height="16">
-            <use href="../img/icons.svg#icon-logo"></use>
+            <use href="./img/icons.svg#icon-logo"></use>
         </svg> Fresh Harvest Box
     </a>
     
@@ -38,13 +38,13 @@
       <li><a class="nav-link" href="#">Contacts</a></li>
     </ul>
     <svg id="hamburger" class="hamburger" width="24" height="24">
-        <use href="../img/icons.svg#icon-menu"></use>
+        <use href="./img/icons.svg#icon-menu"></use>
     </svg>
     <svg id="cart" class="cart" width="24" height="24">
-        <use href="../img/icons.svg#icon-cart"></use>
+        <use href="./img/icons.svg#icon-cart"></use>
     </svg>
     <svg id="close" class="close" width="24" height="24">
-        <use href="../img/icons.svg#icon-close"></use>
+        <use href="./img/icons.svg#icon-close"></use>
     </svg>
     </div>
 
@@ -52,13 +52,14 @@
   <!-- MOBILE MENU START -->
   <div class="mobile-menu" id="mobile-menu">
     <div class="mobile-modal">
-        <ul class="nav-list"> 
+
+        <ul class="mobile-nav-list"> 
             <li><a class="nav-link" href="#">How it works</a></li>
             <li><a class="nav-link" href="#">Fruits</a></li>
             <li><a class="nav-link" href="#">Contacts</a></li>
             <li>
                 <svg id="cart-white" class="cart-white" width="24" height="24">
-                    <use href="../img/icons.svg#icon-cart"></use>
+                    <use class="cart-white" href="./img/icons.svg#icon-cart"></use>
                 </svg>
             </li>
         </ul>
@@ -68,6 +69,19 @@
 </header>
 
 <!-- START --- dodany HEAD żeby style wyświetlić -->
-</body>
-</html>
+<!-- </body>
+</html> -->
 <!-- END ---dodany HEAD żeby style wyświetlić -->
+<!-- <script>
+
+    const OPEN_CLASS = "is-open";
+
+    const mobileNav = document.querySelector("#mobile-menu");
+    
+    const openMobileNav = () => mobileNav.classList.add(OPEN_CLASS);
+    const closeMobileNav = () => mobileNav.classList.remove(OPEN_CLASS);
+
+    document.querySelector("#hamburger").addEventListener("click", openMobileNav);
+    document.querySelector("#close").addEventListener("click", closeMobileNav);
+
+</script> -->
