@@ -1,20 +1,85 @@
-<header class="header">
-  <div class="header-container">
-    <nav class="navigation-links">
-      <a class="logo" href="./index.html">
-        <svg id="logo-icon" class="logo-icon" width="16" height="16">
-          <use href="./img/icons.svg#icon-logo"></use></svg
-        >Fresh Harvest Box
-      </a>
-      <!-- <ul class="nav-list"> 
-                <li><a class="nav-link" href="./index.html">Studio</a></li>
-                <li><a class="nav-link" href="">Portfolio</a></li>
-                <li><a class="nav-link" href="">Contacts</a></li>
-            </ul> -->
-    </nav>
-    <svg id="hamburger" class="hamburger" width="24" height="24">
-      <use href="./img/icons.svg#icon-menu"></use>
-    </svg>
-    <!-- <svg id="cart" class="cart" width="24" height="24"><use href="./images/icons.svg#icon-cart"></use></svg> -->
-  </div>
-</header>
+<!-- START --- dodany HEAD żeby style wyświetlić -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOIT-project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="shortcut icon" href="../favicona.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head> -->
+<!-- END ---dodany HEAD żeby style wyświetlić -->
+
+<body>
+  <header class="header">
+    <a class="logo" href="./index.html">
+      <svg id="logo-icon" class="logo-icon" width="16" height="16">
+        <use href="./img/icons.svg#icon-logo"></use>
+      </svg>
+      Fresh Harvest Box
+    </a>
+
+    <div class="header-container">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#">How it works</a></li>
+        <li><a class="nav-link" href="#">Fruits</a></li>
+        <li><a class="nav-link" href="#">Contacts</a></li>
+      </ul>
+      <svg id="hamburger" class="hamburger" width="24" height="24">
+        <use href="./img/icons.svg#icon-menu"></use>
+      </svg>
+      <svg id="cart" class="cart" width="24" height="24">
+        <use href="./img/icons.svg#icon-cart"></use>
+      </svg>
+      <svg id="close" class="close" width="24" height="24">
+        <use href="./img/icons.svg#icon-close"></use>
+      </svg>
+    </div>
+
+    <!-- MOBILE MENU START -->
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="mobile-modal">
+        <ul class="mobile-nav-list">
+          <li><a class="nav-link" href="#">How it works</a></li>
+          <li><a class="nav-link" href="#">Fruits</a></li>
+          <li><a class="nav-link" href="#">Contacts</a></li>
+          <li>
+            <svg id="cart-white" class="cart-white" width="24" height="24">
+              <use class="cart-white" href="./img/icons.svg#icon-cart"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- MOBILE MENU END -->
+  </header>
+
+  <!-- START --- dodany HEAD żeby style wyświetlić -->
+  <!-- </body>
+</html> -->
+  <!-- END ---dodany HEAD żeby style wyświetlić -->
+  <!-- <script>
+
+    const OPEN_CLASS = "is-open";
+
+    const mobileNav = document.querySelector("#mobile-menu");
+    
+    const openMobileNav = () => mobileNav.classList.add(OPEN_CLASS);
+    const closeMobileNav = () => mobileNav.classList.remove(OPEN_CLASS);
+
+    document.querySelector("#hamburger").addEventListener("click", openMobileNav);
+    document.querySelector("#close").addEventListener("click", closeMobileNav);
+
+</script> -->
+</body>
