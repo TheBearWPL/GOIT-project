@@ -1,5 +1,7 @@
 <!-- START --- dodany HEAD żeby style wyświetlić -->
-<!-- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GOIT-project</title>
@@ -9,7 +11,6 @@
     />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/header.css" />
-    <link rel="stylesheet" href="../img/icons.svg" />
     <link rel="shortcut icon" href="../favicona.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,33 +18,38 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
-  </head> -->
+  </head>
 <!-- END ---dodany HEAD żeby style wyświetlić -->
 
 
-
+<body>
 <header class="header">
+
+    <a class="logo" href="./index.html">
+        <svg id="logo-icon" class="logo-icon" width="16" height="16">
+            <use href="../img/icons.svg#icon-logo"></use>
+        </svg> Fresh Harvest Box
+    </a>
+    
   <div class="header-container">
     <ul class="nav-list"> 
         <li><a class="nav-link" href="#">How it works</a></li>
         <li><a class="nav-link" href="#">Fruits</a></li>
         <li><a class="nav-link" href="#">Contacts</a></li>
     </ul>
-    <a class="logo" href="./index.html">
-        <svg id="logo-icon" class="logo-icon" width="16" height="16">
-        <use href="./img/icons.svg#icon-logo"></use>
-        </svg> Fresh Harvest Box
-    </a>
     <svg id="hamburger" class="hamburger" width="24" height="24">
-        <use href="./img/icons.svg#icon-menu"></use>
+        <use href="../img/icons.svg#icon-menu"></use>
     </svg>
     <svg id="cart" class="cart" width="24" height="24">
-        <use href="./img/icons.svg#icon-cart"></use>
+        <use href="../img/icons.svg#icon-cart"></use>
     </svg>
     <svg id="close" class="close" width="24" height="24">
-        <use href="./img/icons.svg#icon-close"></use>
+        <use href="../img/icons.svg#icon-close"></use>
     </svg>
-  </div>
+    </div>
+
+
+  <!-- MOBILE MENU START -->
   <div class="mobile-menu" id="mobile-menu">
     <div class="mobile-modal">
         <ul class="nav-list"> 
@@ -52,10 +58,16 @@
             <li><a class="nav-link" href="#">Contacts</a></li>
             <li>
                 <svg id="cart-white" class="cart-white" width="24" height="24">
-                    <use href="./img/icons.svg#icon-cart"></use>
+                    <use href="../img/icons.svg#icon-cart"></use>
                 </svg>
             </li>
         </ul>
     </div>
   </div>
+    <!-- MOBILE MENU END -->
 </header>
+
+<!-- START --- dodany HEAD żeby style wyświetlić -->
+</body>
+</html>
+<!-- END ---dodany HEAD żeby style wyświetlić -->
