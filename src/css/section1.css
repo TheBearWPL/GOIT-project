@@ -150,4 +150,33 @@ img {
     border: 1px solid white;
     border-radius: 1000px;
   }
+
+  .circles-p {
+    text-transform: uppercase;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+  }
+
+  .yellow-space {
+    display: block;
+    margin: 44px 64px;
+    width: 249px;
+    height: 387px;
+    background-color: var(--color-yellow);
+    border-radius: 500px;
+  }
+
+  .straw-dscrb {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white);
+    text-transform: uppercase;
+  }
 }
