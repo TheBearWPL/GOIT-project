@@ -178,5 +178,10 @@ img {
     text-align: center;
     color: var(--color-white);
     text-transform: uppercase;
+    margin: 17px 32px;
+  }
+
+  .georgia-strawberrymeloni {
+    margin-left: 43.5px;
   }
 }
