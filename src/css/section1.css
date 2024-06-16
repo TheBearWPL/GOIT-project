@@ -132,4 +132,22 @@ img {
     margin: -42px 0 0 45px;
     text-transform: uppercase;
   }
+
+  .circle {
+    height: ;
+  }
+
+  .four-circles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .circles {
+    width: 132px;
+    height: 38px;
+    border: 1px solid white;
+    border-radius: 1000px;
+  }
 }
