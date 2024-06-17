@@ -1,3 +1,9 @@
+.button-cart {
+  background:none;
+  border: none;
+  cursor: pointer;
+}
+
 .header {
   height: 50px;
   display: flex;
