@@ -32,13 +32,16 @@
   gap: 8px;
 }
 
-.logo-icon {
-  /* padding-right: 8px; */
+.close {
+  background-color: var(--color-white);
+  display: block;
+  position: fixed;
+  top: 12px;
+  right: 20px;
 }
 
 .nav-list,
 .cart,
-.close,
 .mobile-menu {
   display: none;
 }
@@ -58,7 +61,6 @@
 }
 
 .nav-link {
-  /* font DM Sans */
   color: var(--color-white);
   font-size: 14px;
   font-weight: 400;
@@ -82,6 +84,7 @@
 
   .cart {
     display: block;
+    fill: var(--color-red);
   }
 
   .nav-list {

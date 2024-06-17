@@ -1,4 +1,5 @@
 @import 'header.css';
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -39,11 +40,11 @@ footer {
   --color-white: #ffffff;
 }
 /* [IMPORT CSS] contains under that message*/
-@import url('./css/header.css');
-@import url('./css/section1.css');
+
+/* @import url('./css/section1.css');
 @import url('./css/section2.css');
 @import url('./css/section3.css');
 @import url('./css/section4.css');
 @import url('./css/footer.css');
 @import url('./css/modal1.css');
-@import url('./css/modal2.css');
+@import url('./css/modal2.css'); */
