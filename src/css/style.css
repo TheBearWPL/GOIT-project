@@ -13,6 +13,8 @@
   --color-green: #a4cb66;
   --color-yellow: #f5ce13;
   --color-white: #ffffff;
+
+  --var-1-animation: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
