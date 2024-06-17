@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* colors */
+  --color-black: #000000;
+  --color-red: #ae1332;
+  --color-green: #a4cb66;
+  --color-yellow: #f5ce13;
+  --color-white: #ffffff;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+
+  .section-one {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero {
+    position: absolute;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin: 0 20px 0;
+    padding: 106px 16px;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    max-width: 335px;
+    z-index: 10;
+  }
+
+  .woman {
+    margin-top: 166px;
+    margin-left: 16px;
+    z-index: 0;
+    border-radius: 500px;
+    width: 335px;
+    height: 509px;
+    border: 1px solid #fff;
+  }
+
+  .shop-now-btn {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    z-index: 10;
+    border-radius: 50%;
+    border: none;
+    margin-top: -40px;
+    margin-left: 147.5px;
+    text-transform: uppercase;
+    transform: rotate(-14deg);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+    text-align: center;
+  }
+
+  .shop-now-btn:hover {
+    color: rgba(164, 203, 102, 1);
+  }
+
+  .agenda {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: var(--color-white);
+    margin: 44px 48px;
+    width: 279px;
+  }
+
+  .green-space {
+    display: block;
+    margin: 44px 64px;
+    width: 249px;
+    height: 387px;
+    background-color: var(--color-green);
+    border-radius: 500px;
+  }
+
+  .fruit {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white);
+    padding: 26px 112.5px;
+  }
+
+  .georgia-watermeloni {
+    width: 200px;
+    height: 172px;
+    margin: 32px;
+  }
+
+  .fruit-dscrb {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white);
+    width: 155px;
+    height: 70px;
+    padding: 2px 22px 40px 23px;
+    margin: -42px 0 0 45px;
+    text-transform: uppercase;
+  }
+
+  /*.circle {
+  }*/
+
+  .four-circles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .circles {
+    width: 132px;
+    height: 38px;
+    border: 1px solid white;
+    border-radius: 1000px;
+  }
+
+  .circles-p {
+    text-transform: uppercase;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+  }
+
+  .yellow-space {
+    display: block;
+    margin: 44px 64px;
+    width: 249px;
+    height: 387px;
+    background-color: var(--color-yellow);
+    border-radius: 500px;
+  }
+
+  .straw-dscrb {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white);
+    text-transform: uppercase;
+    margin: 17px 32px;
+  }
+
+  .georgia-strawberrymeloni {
+    margin-left: 43.5px;
+  }
+
+  .to-order {
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-white);
+    padding: 80px 40px 0;
+    background-color: var(--color-red);
+  }
+
+  .order {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white);
+    padding: 14px 40px 0;
+  }
+
+  /*.round {
+}*/
+
+  .three-rounds {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 44px 20px;
+  }
+
+  .rounds {
+    display: flex;
+    flex-direction: row;
+    width: 335px;
+    height: 112px;
+    background-color: var(--color-white);
+    border-radius: 20px;
+  }
+
+  .inner-round {
+    width: 136px;
+    height: 38px;
+    background-color: var(--color-red);
+    border-radius: 200px;
+    margin: 32px 20px;
+  }
+
+  .in-round-txt {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: var(--color-white);
+    /* margin: 32px 20px; */
+    position: relative;
+    top: 6px;
+    left: 31.5px;
+  }
+
+  .step {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: var(--color-black);
+    position: relative;
+    left: 150px;
+    top: -35px;
+}

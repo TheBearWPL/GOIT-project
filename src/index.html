@@ -10,7 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./img/icons.svg" />
+    <!-- <link rel="stylesheet" href="./img/icons.svg" /> -->
     <link rel="shortcut icon" href="./favicona.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,17 +21,16 @@
   </head>
   <body>
     <!--[PARTIAL ELEMENTS] conteins under that message-->
-    <include src="./partials/head.html"></include>
-    <include src="./partials/header.html"> </include>
-    <include src="./partials/section1.html"></include>
-    <include src="./partials/section2.html"></include>
-    <include src="./partials/section3.html"></include>
-    <include src="./partials/section4.html"></include>
-    <include src="./partials/footer.html"></include>
-    <include src="./partials/modal1.html"></include>
-    <include src="./partials/modal2.html"></include>
+    <!-- <load src="./partials/head.html" />
+    <load src="./partials/section1.html" />
+    <load src="./partials/section2.html" />
+    <load src="./partials/section3.html" />
+    <load src="./partials/section4.html" />
+    <load src="./partials/footer.html" />
+    <load src="./partials/modal1.html" />
+    <load src="./partials/modal2.html" /> -->
     <!--[HEADER] contains under that message-->
-    <header>0</header>
+    <include src="./partials/header.html"></include>
     <main>
       <!--[SECTION-1] contains under that message-->
       <section>1</section>
@@ -50,3 +49,13 @@
     <modal>7</modal>
   </body>
 </html>
+
+<script>
+  const OPEN_CLASS = "is-open";
+  const mobileNav = document.querySelector("#mobile-menu");
+  const openMobileNav = () => mobileNav.classList.add(OPEN_CLASS);
+  const closeMobileNav = () => mobileNav.classList.remove(OPEN_CLASS);
+  document.querySelector("#hamburger").addEventListener("click", openMobileNav);
+  document.querySelector("#close").addEventListener("click", closeMobileNav);
+</script>
+<script src="https://unpkg.com/htmlincludejs"></script>
