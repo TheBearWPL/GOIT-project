@@ -1,3 +1,12 @@
+@import url('../css/header.css');
+@import url('../css/section1.css');
+@import url('../css/section2.css');
+@import url('../css/section3.css');
+@import url('../css/section4.css');
+@import url('../css/footer.css');
+@import url('../css/modal1.css');
+@import url('../css/modal2.css');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -11,6 +20,8 @@
   --color-green: #a4cb66;
   --color-yellow: #f5ce13;
   --color-white: #ffffff;
+
+  --var-1-animation: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container {
@@ -38,12 +49,3 @@ footer {
   --color-white: #ffffff;
 }
 
-/* [IMPORT CSS] contains under that message*/
-@import '../css/header.scss';
-@import '../css/section1.scss';
-@import '../css/section2.scss';
-@import '../css/section3.scss';
-@import '../css/section4.scss';
-@import '../css/footer.scss';
-@import '../css/modal1.scss';
-@import '../css/modal2.scss';
