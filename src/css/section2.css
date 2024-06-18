@@ -130,6 +130,8 @@
 .gif {
   border-radius: 20px;
   margin: 44 auto;
+  width: 39%;
+  height: 100%;
 }
 @media (max-width: 1279px) {
   .gif {
