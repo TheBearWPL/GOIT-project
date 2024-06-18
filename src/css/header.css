@@ -5,6 +5,7 @@
 }
 
 .header {
+  z-index: 999;
   height: 50px;
   display: flex;
   align-items: center;
@@ -54,6 +55,7 @@
 
 .is-open {
   display: block;
+  z-index: 999;
   position: fixed;
   top: 50px;
   left: 0;
