@@ -123,3 +123,8 @@
     width: 82%;
   }
 }
+@media (min-width: 1280px) {
+  .gif {
+    width: 100%;
+  }
+}
