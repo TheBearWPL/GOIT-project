@@ -364,26 +364,37 @@ img {
     flex-direction: column-reverse;
     justify-content: right;
     width: 320px;
+    gap: 85px;
   }
 
   .agenda {
-    font-family: DM Sans;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: -0.04em;
-    text-align: left;
-    color: var(--color-white);
     margin: 62px 32px;
-    width: 279px;
   }
 
-  .green-space {
-    display: block;
-    margin: 44px 64px, 44px, 144px;
-    width: 249px;
-    height: 387px;
-    background-color: var(--color-green);
-    border-radius: 500px;
+  .four-circles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-end;
+  }
+
+  .circles {
+    width: 132px;
+    height: 38px;
+    border: 1px solid white;
+    border-radius: 1000px;
+  }
+
+  .circles:nth-child(4) {
+    width: 115px;
+  }
+
+  .circles-p {
+    text-transform: uppercase;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
   }
 }
