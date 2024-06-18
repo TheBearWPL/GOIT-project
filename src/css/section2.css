@@ -113,6 +113,7 @@
   }
 }
 */
+
 .gif-box {
   padding: 0 20px 80px;
 }
@@ -129,7 +130,7 @@
 
 .gif {
   border-radius: 20px;
-  margin: 44 auto;
+  margin: 0 auto;
   width: 39%;
   height: 100%;
 }
