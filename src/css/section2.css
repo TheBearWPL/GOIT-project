@@ -113,18 +113,25 @@
   }
 }
 */
-
+.gif-box {
+  background-color: var(--color-red);
+  max-width: 860px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  align-items: center;
+}
 .gif {
   border-radius: 20px;
   margin: 210 auto;
 }
 @media (max-width: 1279px) {
   .gif {
-    width: 82%;
+    max-width: 82%;
   }
 }
 @media (min-width: 1280px) {
   .gif {
-    width: 100%;
+    max-width: 100%;
   }
 }
