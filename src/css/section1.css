@@ -1,26 +1,7 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-:root {
-  /* colors */
-  --color-black: #000000;
-  --color-red: #ae1332;
-  --color-green: #a4cb66;
-  --color-yellow: #f5ce13;
-  --color-white: #ffffff;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
 @media (min-width: 375px) {
-  .container {
+  .contain {
     width: 375px;
+    align-items: center;
   }
 
   .section-one {
@@ -286,8 +267,9 @@ img {
 }
 
 @media (min-width: 768px) {
-  .container {
+  .contain {
     width: 768px;
+    align-items: center;
   }
 
   .section-one {
