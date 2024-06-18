@@ -195,7 +195,6 @@ img {
     text-transform: uppercase;
     color: var(--color-white);
     padding: 80px 40px 0;
-    background-color: var(--color-red);
   }
 
   .order {
@@ -396,5 +395,28 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 8px;
+  }
+
+  .to-order {
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin-bottom: 14px;
+  }
+
+  .order {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white);
+    padding: 14px 150px 0;
   }
 }
