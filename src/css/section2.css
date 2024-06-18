@@ -113,15 +113,10 @@
   }
 }
 */
-.gif-box {
-  max-width: 860px;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  margin: 210 auto;
-}
+
 .gif {
   border-radius: 20px;
+  margin: 210 auto;
 }
 @media (max-width: 1279px) {
   .gif {
