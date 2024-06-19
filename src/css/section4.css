@@ -1,5 +1,4 @@
 .section-four {
-  width: 375px;
   background-color: #ae1332;
 }
 .heading-style {
@@ -15,7 +14,6 @@
   color: #ffffff;
   position: relative;
   text-transform: uppercase;
-  width: 335px;
   top: 75px;
 }
 @media (min-width: 768px) {
@@ -154,7 +152,6 @@
     background-color: #ae1332;
     width: 292px;
     height: 48px;
-    margin-top: 80px;
     margin-right: 100px;
     margin-left: 100px;
   }
@@ -165,7 +162,7 @@
     background-color: #ae1332;
     border: 1px;
     padding: 10px;
-    border-radius: 100%;
+    border-radius: 100px;
     width: 292px;
     height: 48px;
     object-fit: cover;
@@ -183,10 +180,10 @@
     border: none;
     display: inline-block;
     font: inherit;
-    border-radius: 100%;
+    border-radius: 100px;
     position: relative;
-    bottom: 50px;
-    left: 100px;
+    bottom: 48px;
+    left: 190px;
   }
 }
 @media (min-width: 768px) {
