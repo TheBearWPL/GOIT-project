@@ -1,0 +1,14 @@
+
+.gif-box {
+  padding: 0 20px 80px;
+}
+@media only screen and (min-width: 768px) {
+  .gif-box {
+    padding: 0 32px 144px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .gif-box {
+    padding: 0 178px 150px;
+  }
+}
