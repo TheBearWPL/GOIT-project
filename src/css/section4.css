@@ -1,5 +1,4 @@
 .section-four {
-  width: 375px;
   background-color: #ae1332;
 }
 .heading-style {
@@ -15,7 +14,6 @@
   color: #ffffff;
   position: relative;
   text-transform: uppercase;
-  width: 335px;
   top: 75px;
 }
 @media (min-width: 768px) {
