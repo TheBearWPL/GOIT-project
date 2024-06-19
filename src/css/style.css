@@ -1,3 +1,4 @@
+@import url('../css/reset.css');
 @import url('../css/header.css');
 @import url('../css/section1.css');
 @import url('../css/section2.css');
@@ -20,11 +21,9 @@
   --color-green: #a4cb66;
   --color-yellow: #f5ce13;
   --color-white: #ffffff;
+  --color-pink: #E03F5E;
 
   --var-1-animation: 300ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.container {
 }
 
 img {
@@ -48,4 +47,3 @@ header,
 footer {
   --color-white: #ffffff;
 }
-

@@ -1,0 +1,113 @@
+.thank-you {
+    display: none;
+}
+
+.thank-you-is-on {
+    z-index: 999;
+    display: block;
+    position: absolute;
+    width: 335px;
+    height: 426px;
+    border-radius: 20px;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    background-color: var(--color-pink);
+    transform: translate(-50%, -50%);
+}
+
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you-header {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    color: var(--color-white);
+}
+
+.thank-you-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.thank-you-close {
+    fill: var(--color-white);
+}
+
+.thank-you-button{
+    background:none;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    right:0px;
+    top: 0px;
+}
+
+.thank-you-image {
+    width: 207px;
+    height: 176px;
+}
+
+.thank-you-header {
+    margin-bottom: 14px;
+}
+
+@media (width >= 768px) {
+
+    .thank-you-is-on {
+        z-index: 998;
+        display: block;
+        position: absolute;
+        width: 600px;
+        height: 545px;
+        border-radius: 20px;
+        padding: 20px;
+        left: 50%;
+        top: 50%;
+        background-color: var(--color-pink);
+        transform: translate(-50%, -50%);
+    }
+
+    .thank-you-image {
+        width: 278px;
+        height: 239px;
+    }
+
+    .thank-you-text {
+        max-width: 391px;
+    }
+
+    .thank-you-header {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 44px;
+        letter-spacing: -0.04em;
+        color: var(--color-white);
+    }
+    
+    .thank-you-text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.04em;
+        text-align: center;
+        color: var(--color-white);
+    }
+
+    .thank-you-image {
+        margin: 28px 0;
+    }
+    
+}
+
+
