@@ -7,45 +7,45 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/goit-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-project/assets/index-fad92718.css">
+    <link rel="stylesheet" href="/goit-project/assets/index-deaeb391.css">
   </head>
   <body>
     <header class="header">
   <a class="logo" href="./index.html">
     <svg id="logo-icon" class="logo-icon" width="16" height="16">
-      <use href="/goit-project/assets/icons-cfa28482.svg#icon-logo"></use>
+      <use href="../img/icons.svg#icon-logo"></use>
     </svg>
     Fresh Harvest Box
   </a>
   <div class="header-container">
     <ul class="nav-list">
-      <li><a class="nav-link" href="#">How it works</a></li>
-      <li><a class="nav-link" href="#">Fruits</a></li>
-      <li><a class="nav-link" href="#">Contacts</a></li>
+      <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+      <li><a class="nav-link" href="#fruits">Fruits</a></li>
+      <li><a class="nav-link" href="#contact">Contacts</a></li>
     </ul>
     <svg id="hamburger" class="hamburger" width="24" height="24">
-      <use href="/goit-project/assets/icons-cfa28482.svg#icon-menu"></use>
+      <use href="../img/icons.svg#icon-hamburger-mobile"></use>
     </svg>
     <button class="button-cart" type="button">
       <svg id="cart" class="cart" width="24" height="24">
-        <use href="/goit-project/assets/icons-cfa28482.svg#icon-cart"></use>
+        <use href="../img/icons.svg#icon-uil_cart"></use>
       </svg>
     </button>
   </div>
 
   <div class="mobile-menu" id="mobile-menu">
     <svg id="close" class="close" width="24" height="24">
-      <use href="/goit-project/assets/icons-cfa28482.svg#icon-close"></use>
+      <use href="../img/icons.svg#icon-x-red"></use>
     </svg>
     <div class="mobile-modal">
       <ul class="mobile-nav-list">
-        <li><a class="nav-link" href="#">How it works</a></li>
-        <li><a class="nav-link" href="#">Fruits</a></li>
-        <li><a class="nav-link" href="#">Contacts</a></li>
+        <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+        <li><a class="nav-link" href="#fruits">Fruits</a></li>
+        <li><a class="nav-link" href="#contact">Contacts</a></li>
         <li class="cart-white">
           <button type="button" class="button-cart">
             <svg id="cart-white" class="cart-white" width="24" height="24">
-              <use class="cart-white" href="/goit-project/assets/icons-cfa28482.svg#icon-cart"></use>
+              <use class="cart-white" href="../img/icons.svg#icon-uil_cart"></use>
             </svg>
           </button>
         </li>
@@ -129,7 +129,7 @@
       basket, simply follow 
       these easy steps
     </p>
-    <p class="order">
+    <p class="order" id="how-it-works">
       Our baskets are assembled with care and delivered
       straight to your doorstep, so you can enjoy the taste of
       fresh fruit without ever leaving your home. Whether
@@ -267,9 +267,9 @@
         <p class="fruits-price">90 UAH / kg</p>
       </li>
     </ul>
-    <button type="button" class="button-order" data-order-open>
+    <button id="button-order" type="button" class="button-order" data-order-open>
       <svg class="icon-arrow" width="14" height="14">
-        <use href="/goit-project/assets/icons-cfa28482.svg#icon-arrow"></use>
+        <use href="/goit-project/assets/icons-52ec1b25.svg#icon-arrow"></use>
       </svg>
       <span class="button-name">ORDER</span>
     </button>
@@ -326,7 +326,7 @@
 </section>
 
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contact">
     <div class="footer-container">
         <div class="footer-div">
             
@@ -361,7 +361,7 @@
                 <li class="footer-icon-sm">
                     <a href="https://www.facebook.com/" target="_blank" class="sm-link">
                         <svg class="icon" width="24" height="24">
-                            <use href="/goit-project/assets/icons-cfa28482.svg#icon-face"></use>
+                            <use href="/goit-project/assets/icons-52ec1b25.svg#icon-face"></use>
                         </svg>
                     </a>
                 </li>
@@ -371,7 +371,7 @@
 
 
 
-                        <use href="/goit-project/assets/icons-cfa28482.svg#icon-insta"></use>
+                        <use href="/goit-project/assets/icons-52ec1b25.svg#icon-insta"></use>
 
                         </svg>
                     </a>
@@ -379,7 +379,7 @@
                 <li class="footer-icon-sm">
                     <a href="https://www.youtube.com/" target="_blank" class="sm-link">
                         <svg class="icon" width="24" height="24">
-                            <use href="/goit-project/assets/icons-cfa28482.svg#icon-youtube"> </use>
+                            <use href="/goit-project/assets/icons-52ec1b25.svg#icon-youtube"> </use>
                         </svg>
                     </a>
                 </li>
@@ -404,35 +404,13 @@
         </div>
     </div>
 </footer>
-    
-    <!DOCTYPE html>
-    <html lang="pl">
-    
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Project</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" />
-        <link rel="stylesheet" href="../css/style.css" />
-        <link rel="stylesheet" href="../img/icons.svg" />
-        <link rel="shortcut icon" href="favicona.png" sizes="16x16" type="image/png" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-            rel="stylesheet" />
-    </head>
-    
-    
-
-<body>
-<modal>
-    <div class="modal-one">
+    <modal>
+    <div class="modal-one" id="modal-one">
         <div class="modal-head">
         <h2 class="modal-one-title">
             YOUR ORDER
         </h2>
-        <button type="button" class="modal-button">
+        <button type="button" class="modal-button" id="modal-button">
              <svg width="24" height="24" class="modal-icon-one">
                 <use href="../img/icons.svg#icon-modalclose1"></use>
             </svg>
@@ -451,7 +429,7 @@
             <input id="plant-order" type="checkbox" value="true" name="plant-order" class="checkbox-input visually-hidden" />
             <label for="plant-order" class="checkbox-label"> 
                     <svg width="6" height="6" class="modal-icon-two">
-                         <use href="/goit-project/assets/icons-cfa28482.svg#icon-modalcheck1"></use>
+                         <use href="/goit-project/assets/icons-52ec1b25.svg#icon-modalcheck1"></use>
                     </svg>
             </label>
          </li>
@@ -467,7 +445,7 @@
             <input id="plant-order" type="checkbox" value="true" name="plant-order" class="checkbox-input visually-hidden" />
             <label for="user-privacy" class="checkbox-label">
                 <svg width="6" height="6" class="modal-icon-two">
-                    <use href="/goit-project/assets/icons-cfa28482.svg#icon-modalcheck1"></use>
+                    <use href="/goit-project/assets/icons-52ec1b25.svg#icon-modalcheck1"></use>
                 </svg>
             </label>
         </li>
@@ -481,7 +459,7 @@
                     class="checkbox-input visually-hidden" />
                 <label for="user-privacy" class="checkbox-label">
                     <svg width="6" height="6" class="modal-icon-two">
-                        <use href="/goit-project/assets/icons-cfa28482.svg#icon-modalcheck1"></use>
+                        <use href="/goit-project/assets/icons-52ec1b25.svg#icon-modalcheck1"></use>
                     </svg>
                 </label>
         </li>
@@ -513,22 +491,21 @@
                 </div>
             </li>
         </ul>       
-        <button class="checkbox-button" type="submit">Submit</button>
+        <button id="submit-button" class="checkbox-button" type="submit">Submit</button>
     </div>
 </modal>
-</body>
-</html>
+
     <modal class="thank-you">
   <!-- <modal class="thank-you thank-you-is-on"> -->
   <div class="thank-you-container">
     <button id="thank-you-button" class="thank-you-button">
       <svg id="thank-you-close" class="thank-you-close" width="24" height="24">
-        <use href="/goit-project/assets/icons-cfa28482.svg#icon-close"></use>
+        <use href="../img/icons.svg#icon-x"></use>
       </svg>
     </button>
     <img
-      srcset="../img/rasberry1x.png 1x, ../img/rasberry2x.png 2x"
-      src="../img/rasberry1x.png"
+      srcset="../img/pop-up-thank-you/raspberry-fruit-desktop.png 1x, ../img/pop-up-thank-you/raspberry-fruit-mobile.png 2x"
+      src="../img/pop-up-thank-you/raspberry-fruit-desktop.png"
       class="thank-you-image"
       alt="rasberry"
     />
@@ -545,5 +522,7 @@
 
     
     <script src="./mobile-menu.js"></script>
+    <script src="./modal-order.js"></script>
+    <script src="./modal-thank-you.js"></script>
   </body>
 </html>
