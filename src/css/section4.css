@@ -163,7 +163,7 @@
     background-color: #ae1332;
     border: 1px;
     padding: 10px;
-    border-radius: 100%;
+    border-radius: 100px;
     width: 292px;
     height: 48px;
     object-fit: cover;
@@ -181,7 +181,7 @@
     border: none;
     display: inline-block;
     font: inherit;
-    border-radius: 100%;
+    border-radius: 100px;
     position: relative;
     bottom: 50px;
     left: 190px;
