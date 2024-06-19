@@ -455,3 +455,32 @@
     width: 200px;
   }
 }
+
+@media (min-width: 1200px) {
+  .contain {
+    width: 1200px;
+    align-items: center;
+  }
+
+  .section-one {
+    display: flex;
+    align-items: center;
+    flex-direction: none;
+  }
+
+  .hero {
+    position: absolute;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin: 0 20px 0;
+    padding: 106px 16px;
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    max-width: 898px;
+    z-index: 10;
+  }
+}
