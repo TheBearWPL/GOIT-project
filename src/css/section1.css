@@ -472,7 +472,7 @@
     position: absolute;
     text-transform: uppercase;
     color: var(--color-white);
-    margin: 0 20px 0;
+    margin: 0 191px 0;
     padding: 106px 16px;
     font-family: DM Sans;
     font-size: 64px;
@@ -482,5 +482,102 @@
     text-align: center;
     max-width: 898px;
     z-index: 10;
+  }
+
+  .woman {
+    margin-top: 172px;
+    margin-left: 414px;
+    z-index: 0;
+    border-radius: 500px;
+    width: 452px;
+    height: 702px;
+    border: 1px solid #fff;
+  }
+
+  .shop-now-btn {
+    display: block;
+    width: 144px;
+    height: 144px;
+    background-color: #fff;
+    z-index: 10;
+    border-radius: 50%;
+    border: none;
+    margin-top: -80px;
+    margin-left: 583px;
+    text-transform: uppercase;
+    transform: rotate(-14deg);
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .shop-now-btn:hover {
+    color: rgba(164, 203, 102, 1);
+  }
+
+  .parent {
+    display: flex;
+    gap: 71px;
+  }
+
+  .col-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 320px;
+    position: absolute;
+    top: 560px;
+  }
+
+  .col-two {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: right;
+    width: 320px;
+    gap: 85px;
+    position: absolute;
+    left: 969px;
+    top: 336px;
+  }
+
+  .to-order {
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin-bottom: 14px;
+    margin-top: 238px;
+  }
+
+  .order {
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: var(--color-white);
+    padding: 14px 365px 0;
+  }
+
+  .three-rounds {
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin: 44px 20px;
+    flex-direction: row;
+    margin-bottom: 80px;
+  }
+
+  .agenda {
+    margin: 62px 64px;
   }
 }
