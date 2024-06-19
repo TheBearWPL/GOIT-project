@@ -539,9 +539,8 @@
     justify-content: right;
     width: 320px;
     gap: 85px;
-    position: absolute;
-    left: 969px;
-    top: 336px;
+    margin-left: 70%;
+    margin-top: -600px;
   }
 
   .to-order {
