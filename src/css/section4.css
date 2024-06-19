@@ -127,6 +127,7 @@
     margin-left: 138px;
     margin-right: 138px;
     width: 492px;
+    gap: 80px;
   }
 }
 @media (min-width: 1280px) {
