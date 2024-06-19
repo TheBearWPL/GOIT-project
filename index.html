@@ -11,46 +11,48 @@
   </head>
   <body>
     <header class="header">
-    <a class="logo" href="./index.html">
-        <svg id="logo-icon" class="logo-icon" width="16" height="16">
-        <use href="/goit-project/assets/icons-cfa28482.svg#icon-logo"></use>
-        </svg>
-        Fresh Harvest Box
-    </a>
-    <div class="header-container">
-        <ul class="nav-list">
+  <a class="logo" href="./index.html">
+    <svg id="logo-icon" class="logo-icon" width="16" height="16">
+      <use href="/goit-project/assets/icons-cfa28482.svg#icon-logo"></use>
+    </svg>
+    Fresh Harvest Box
+  </a>
+  <div class="header-container">
+    <ul class="nav-list">
+      <li><a class="nav-link" href="#">How it works</a></li>
+      <li><a class="nav-link" href="#">Fruits</a></li>
+      <li><a class="nav-link" href="#">Contacts</a></li>
+    </ul>
+    <svg id="hamburger" class="hamburger" width="24" height="24">
+      <use href="/goit-project/assets/icons-cfa28482.svg#icon-menu"></use>
+    </svg>
+    <button class="button-cart" type="button">
+      <svg id="cart" class="cart" width="24" height="24">
+        <use href="/goit-project/assets/icons-cfa28482.svg#icon-cart"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <svg id="close" class="close" width="24" height="24">
+      <use href="/goit-project/assets/icons-cfa28482.svg#icon-close"></use>
+    </svg>
+    <div class="mobile-modal">
+      <ul class="mobile-nav-list">
         <li><a class="nav-link" href="#">How it works</a></li>
         <li><a class="nav-link" href="#">Fruits</a></li>
         <li><a class="nav-link" href="#">Contacts</a></li>
-        </ul>
-        <svg id="hamburger" class="hamburger" width="24" height="24">
-        <use href="/goit-project/assets/icons-cfa28482.svg#icon-menu"></use>
-        </svg>
-        <button class="button-cart" type="button"><svg id="cart" class="cart" width="24" height="24">
-        <use href="/goit-project/assets/icons-cfa28482.svg#icon-cart"></use>
-        </svg></button>
+        <li class="cart-white">
+          <button type="button" class="button-cart">
+            <svg id="cart-white" class="cart-white" width="24" height="24">
+              <use class="cart-white" href="/goit-project/assets/icons-cfa28482.svg#icon-cart"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
     </div>
-
-    <div class="mobile-menu" id="mobile-menu">
-        <svg id="close" class="close" width="24" height="24">
-            <use href="/goit-project/assets/icons-cfa28482.svg#icon-close"></use>
-        </svg>
-        <div class="mobile-modal">
-            <ul class="mobile-nav-list">
-                <li><a class="nav-link" href="#">How it works</a></li>
-                <li><a class="nav-link" href="#">Fruits</a></li>
-                <li><a class="nav-link" href="#">Contacts</a></li>
-                <li class="cart-white">
-                    <button type="button" class="button-cart"><svg id="cart-white" class="cart-white" width="24" height="24">
-                    <use class="cart-white" href="/goit-project/assets/icons-cfa28482.svg#icon-cart"></use>
-                    </svg></button>
-                </li>
-            </ul>
-        </div>
-    </div>
-
+  </div>
 </header>
-
 
     <main>
       <section class="section-one">
@@ -517,15 +519,27 @@
 </body>
 </html>
     <modal class="thank-you">
-    <!-- <modal class="thank-you thank-you-is-on"> -->
-    <div class="thank-you-container">
-        <button id="thank-you-button" class="thank-you-button" ><svg id="thank-you-close" class="thank-you-close" width="24" height="24">
-            <use href="/goit-project/assets/icons-cfa28482.svg#icon-close"></use></svg>
-        </button>
-        <img srcset="../img/rasberry1x.png 1x, ../img/rasberry2x.png 2x" src="../img/rasberry1x.png" class="thank-you-image" alt="rasberry"/>
-        <h1 class="thank-you-header">THANK YOU</h1>
-        <p class="thank-you-text">Thank you for your order! Our team is preparing your box with fresh, delicious fruits and vegetables, and we'll deliver it straight to your doorstep. We appreciate your business and look forward to providing you with the best possible experience!</p>
-    </div>
+  <!-- <modal class="thank-you thank-you-is-on"> -->
+  <div class="thank-you-container">
+    <button id="thank-you-button" class="thank-you-button">
+      <svg id="thank-you-close" class="thank-you-close" width="24" height="24">
+        <use href="/goit-project/assets/icons-cfa28482.svg#icon-close"></use>
+      </svg>
+    </button>
+    <img
+      srcset="../img/rasberry1x.png 1x, ../img/rasberry2x.png 2x"
+      src="../img/rasberry1x.png"
+      class="thank-you-image"
+      alt="rasberry"
+    />
+    <h1 class="thank-you-header">THANK YOU</h1>
+    <p class="thank-you-text">
+      Thank you for your order! Our team is preparing your box with fresh,
+      delicious fruits and vegetables, and we'll deliver it straight to your
+      doorstep. We appreciate your business and look forward to providing you
+      with the best possible experience!
+    </p>
+  </div>
 </modal>
 
 
