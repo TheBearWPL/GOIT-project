@@ -20,3 +20,4 @@ document.addEventListener('DOMContentLoaded', function () {
   // Nasłuchiwanie kliknięć na ikonę zamykania menu
   close.addEventListener('click', closeMobileMenu);
 });
+

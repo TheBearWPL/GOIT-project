@@ -5,7 +5,10 @@
 }
 
 .modal-one {
-    /* display: none; */
+    display: none; 
+}
+
+.modal-one-is-on {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,6 +36,7 @@
 .modal-button {
     border: none;
     background: none;
+    cursor: pointer;
 }
 
 .modal-head {

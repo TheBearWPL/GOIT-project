@@ -264,6 +264,22 @@
     left: 150px;
     top: -35px;
   }
+
+  .banana-div {
+    width: 66px;
+    margin-top: -470px;
+    margin-left: 13px;
+    position: absolute;
+    filter: blur(1px);
+  }
+
+  .strawberry-div {
+    width: 56px;
+    position: absolute;
+    filter: blur(1px);
+    margin-left: 299px;
+    margin-top: -530px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -454,6 +470,21 @@
     top: -35px;
     width: 200px;
   }
+
+  .banana-div {
+    width: 132px;
+    margin-top: -580px;
+    margin-left: 40px;
+    position: absolute;
+  }
+
+  .strawberry-div {
+    width: 108px;
+    position: absolute;
+    filter: blur(1px);
+    margin-left: 623px;
+    margin-top: -720px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -578,5 +609,20 @@
 
   .agenda {
     margin: 62px 64px;
+  }
+
+  .banana-div {
+    width: 183px;
+    margin-top: -480px;
+    margin-left: 213px;
+    position: absolute;
+  }
+
+  .strawberry-div {
+    width: 120px;
+    position: absolute;
+    filter: blur(1px);
+    margin-left: 937px;
+    margin-top: -720px;
   }
 }
