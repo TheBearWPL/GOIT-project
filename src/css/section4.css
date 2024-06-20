@@ -53,6 +53,7 @@
   object-fit: cover;
   margin-left: 20px;
   margin-right: 20px;
+  top: 75px;
 }
 @media (max-width: 767px) {
   .pictures-style {
