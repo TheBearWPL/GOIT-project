@@ -139,6 +139,7 @@
   .div-style {
     margin-right: 394px;
     margin-left: 394px;
+    margin-top: 0px;
   }
 }
 @media (min-width: 768px) {
