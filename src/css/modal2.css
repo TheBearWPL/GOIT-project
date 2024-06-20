@@ -40,11 +40,7 @@
     color: var(--color-white);
 }
 
-.thank-you-close {
-    fill: var(--color-white);
-}
-
-.thank-you-button{
+.thank-you-close{
     background:none;
     border: none;
     cursor: pointer;
