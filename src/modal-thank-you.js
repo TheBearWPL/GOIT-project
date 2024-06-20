@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const submitButton = document.getElementById('submit-button');
-    const close = document.getElementById('thank-you-button');
+    const close = document.getElementById('thank-you-close');
     const modalThankYou = document.getElementById('thank-you');
   
   

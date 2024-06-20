@@ -14,7 +14,10 @@
   color: #ffffff;
   position: relative;
   text-transform: uppercase;
-  top: 75px;
+  top: 90;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 335px;
 }
 @media (min-width: 768px) {
   .heading-style {
