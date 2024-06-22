@@ -7,7 +7,7 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/GOIT-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/GOIT-project/assets/index-beb52391.css">
+    <link rel="stylesheet" href="/GOIT-project/assets/index-f86d249e.css">
   </head>
   <body>
     <header class="header">
@@ -94,10 +94,10 @@
     <div class="parent">
     <div class="col-one">
       <p class="agenda">
-        Our expertly curated fruit baskets are made <br />
-        with the freshest, highest quality fruits <br />
-        available. Whether you are looking for a healthy <br />
-        snack or a gift for a loved one, Fresh Harvest <br />
+        Our expertly curated fruit baskets are made 
+        with the freshest, highest quality fruits
+        available. Whether you are looking for a healthy
+        snack or a gift for a loved one, Fresh Harvest 
         Box has got you covered.
       </p>
       <div class="green-space">
@@ -302,7 +302,9 @@
 
       <section class="section-four">
   <div class="heading-style">
-    <h2 class="heading-one">FRESH HARVEST BOX HAS GOT YOU COVERED</h2>
+    <div class="heading-img">
+      <h2 class="heading-one">FRESH HARVEST BOX HAS GOT YOU COVERED</h2>
+    </div>
     <div class="green-style">
       <img
         class="picture-one-small"
@@ -335,7 +337,12 @@
       perfect for anyone looking to eat healthier or support local farmers.
       Order your box today and start enjoying the best that nature has to offer!
     </p>
-    <form class="email-form" name="user_email" autocomplete="off">
+    <form
+      class="email-form"
+      name="user_email"
+      placeholder="Enter email..."
+      recquired
+    >
       <label class="label-form">
         <input
           class="input-form"
@@ -427,7 +434,43 @@
         </div>
     </div>
 </footer>
+    
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../img/icons.svg" />
+    <link
+      rel="shortcut icon"
+      href="favicona.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
     <modal>
+      <div class="modal-one">
+        <div class="modal-head">
+          <h2 class="modal-one-title">YOUR ORDER</h2>
+          <button type="button" class="modal-button">
+            <svg width="24" height="24" class="modal-icon-one">
+              <use href="/GOIT-project/assets/icons-f8693b4b.svg#icon-modalclose1"></use>
+
+<modal>
     <div class="modal-one" id="modal-one">
         <div class="modal-head">
         <h2 class="modal-one-title">
@@ -436,87 +479,169 @@
         <button type="button" class="modal-button" id="modal-button">
              <svg width="24" height="24" class="modal-icon-one">
                 <use href="../img/icons.svg#icon-modalclose1"></use>
+
             </svg>
-        </button>
+          </button>
         </div>
         <ul class="modal-list-one">
-        <li class="modal-list-element-one">
+          <li class="modal-list-element-one element-box">
             <div class="modal-title-div">
-            <h3 class="modal-title-two">Strawberry Basket</h3>
-            <p class="modal-par-one">Plant</p>
+              <h3 class="modal-title-two">Strawberry Basket</h3>
+              <p class="modal-par-one">Plant</p>
             </div>
-            <img class="modal-img-size"  
-                src="/src/img/img61x.png" 
-                alt="box with Strawberry" 
-                width="88" height="95" />
-            <input id="plant-order" type="checkbox" value="true" name="plant-order" class="checkbox-input visually-hidden" />
-            <label for="plant-order" class="checkbox-label"> 
-                    <svg width="6" height="6" class="modal-icon-two">
-                         <use href="/GOIT-project/assets/icons-f8693b4b.svg#icon-modalcheck1"></use>
-                    </svg>
-            </label>
-         </li>
 
-        <li class="modal-list-element-two">
-            <div>
-            <h3 class="modal-title-two">Apple Basket</h3>
-            <p class="modal-par-one">Plant</p>
-            <img class="modal-img-size" 
-            src="/src/img/img41x.png" 
-            alt="box with apples" 
-            width="106" height="95" />
-            <input id="plant-order" type="checkbox" value="true" name="plant-order" class="checkbox-input visually-hidden" />
-            <label for="user-privacy" class="checkbox-label">
+            <img
+              class="modal-img-size"
+              srcset="./img/img61x.jpg 1x, ./img/img62x.png 2x"
+              src="./img/img61x.jpg"
+              alt="box with Strawberry"
+              width="88"
+              height="95"
+            />
+
+            <div class="checkbox-order">
+              <input
+                id="plant-order"
+                type="checkbox"
+                value="true"
+                name="plant-order"
+                class="checkbox-input visually-hidden"
+              />
+              <label for="plant-order" class="checkbox-label">
                 <svg width="6" height="6" class="modal-icon-two">
-                    <use href="/GOIT-project/assets/icons-f8693b4b.svg#icon-modalcheck1"></use>
+                  <use href="/GOIT-project/assets/icons-f8693b4b.svg#icon-modalcheck1"></use>
                 </svg>
-            </label>
-        </li>
+              </label>
+            </div>
+          </li>
 
-        <li class="modal-list-element-three">
-            <div>
-                <h3 class="modal-title-two">Fruits Basket</h3>
-                <p class="modal-par-one">Plant</p>
-                <img class="modal-img-size" src="/src/img/img81x.png" alt="box with fruits" width="107" height="95" />
-                <input id="plant-order" type="checkbox" value="true" name="plant-order"
-                    class="checkbox-input visually-hidden" />
-                <label for="user-privacy" class="checkbox-label">
-                    <svg width="6" height="6" class="modal-icon-two">
-                        <use href="/GOIT-project/assets/icons-f8693b4b.svg#icon-modalcheck1"></use>
-                    </svg>
-                </label>
-        </li>
+          <li class="modal-list-element-two element-box">
+            <div class="modal-title-div">
+              <h3 class="modal-title-two">Apple Basket</h3>
+              <p class="modal-par-one">Plant</p>
+            </div>
+
+            <img
+              class="modal-img-size"
+              srcset="./img/img41x.png 1x, ./img/img42x.png 2x"
+              src="./img/img41x.png"
+              alt="box with Apples"
+              width="88"
+              height="95"
+            />
+
+            <div class="checkbox-order">
+              <input
+                id="plant-order"
+                type="checkbox"
+                value="true"
+                name="plant-order"
+                class="checkbox-input visually-hidden"
+              />
+              <label for="plant-order" class="checkbox-label">
+                <svg width="6" height="6" class="modal-icon-two">
+                  <use href="/GOIT-project/assets/icons-f8693b4b.svg#icon-modalcheck1"></use>
+                </svg>
+              </label>
+            </div>
+          </li>
+
+          <li class="modal-list-element-three element-box">
+            <div class="modal-title-div">
+              <h3 class="modal-title-two">Fruits Basket</h3>
+              <p class="modal-par-one">Plant</p>
+            </div>
+
+            <img
+              class="modal-img-size"
+              srcset="./img/img81x.png 1x, ./img/img82x.png 2x"
+              src="./img/img81x.png"
+              alt="box with Fruits"
+              width="88"
+              height="95"
+            />
+
+            <div class="checkbox-order">
+              <input
+                id="plant-order"
+                type="checkbox"
+                value="true"
+                name="plant-order"
+                class="checkbox-input visually-hidden"
+              />
+              <label for="plant-order" class="checkbox-label">
+                <svg width="6" height="6" class="modal-icon-two">
+                  <use href="/GOIT-project/assets/icons-f8693b4b.svg#icon-modalcheck1"></use>
+                </svg>
+              </label>
+            </div>
+          </li>
         </ul>
-        <ul class="modal-list-two">
-            <li class="modal-list-element-three">
-                <div class="modal-area-one">
-                    <label for="user-name" class="modal-label-one"></label>
-                    <textarea id="user-name" name="user-name" placeholder="Enter full name..."
-                        class="modal-textarea"></textarea>
-                </div>
+        <div class="form-and-img">
+          <ul class="modal-list-two">
+            <li class="modal-list-element-four">
+              <div class="modal-area-one">
+                <label for="user-email" class="modal-label-one"></label>
+                <textarea
+                  id="user-email"
+                  name="user-email"
+                  placeholder="Enter full name..."
+                  class="modal-textarea"
+                ></textarea>
+              </div>
             </li>
-            <li class="modal-list-element-three">
-                <div class="modal-area-one">
-                    <label for="user-email" class="modal-label-one"></label>
-                    <textarea id="user-email" name="user-email" placeholder="Enter email..." class="modal-textarea"></textarea>
-                </div>
+            <li class="modal-list-element-four">
+              <div class="modal-area-one">
+                <label for="user-email" class="modal-label-one"></label>
+                <textarea
+                  id="user-email"
+                  name="user-email"
+                  placeholder="Enter email..."
+                  class="modal-textarea"
+                ></textarea>
+              </div>
             </li>
-            <li class="modal-list-element-three">
-                <div class="modal-area-one">
-                    <label for="user-card" class="modal-label-one"></label>
-                    <textarea id="user-card" name="user-card" placeholder="Enter card.." class="modal-textarea"></textarea>
-                </div>
+            <li class="modal-list-element-four">
+              <div class="modal-area-one">
+                <label for="user-card" class="modal-label-one"></label>
+                <textarea
+                  id="user-card"
+                  name="user-card"
+                  placeholder="Enter card.."
+                  class="modal-textarea"
+                ></textarea>
+              </div>
             </li>
-            <li class="modal-list-element-three">
-                <div class="modal-area-two">
-                    <label for="user-comments" class="modal-label-one"></label>
-                    <textarea id="user-comments" name="user-comments" placeholder="Enter comments..." class="modal-textarea-two"></textarea>
-                </div>
+            <li class="modal-list-element-four">
+              <div class="modal-area-one">
+                <label for="user-comments" class="modal-label-one"></label>
+                <textarea
+                  id="user-comments"
+                  name="user-comments"
+                  placeholder="Enter comments..."
+                  class="modal-textarea-two"
+                ></textarea>
+              </div>
             </li>
-        </ul>       
-        <button id="submit-button" class="checkbox-button" type="submit">Submit</button>
-    </div>
-</modal>
+
+            <button class="checkbox-button" type="submit">Submit</button>
+          </ul>
+
+          <div class="right-side-img">
+            <img
+              srcset="/GOIT-project/assets/women-with-banana-tablet-cc11be76.png 1x, /GOIT-project/assets/women-with-banana-desktop-db94b89e.png 2x"
+              src="/GOIT-project/assets/women-with-banana-tablet-cc11be76.png"
+              alt="smiling woman holding bananas"
+              class="bananas-lady"
+              width="471"
+              height="458"
+            />
+          </div>
+        </div>
+      </div>
+    </modal>
+  </body>
+</html>
 
     <modal class="thank-you">
   <!-- <modal class="thank-you thank-you-is-on"> -->
