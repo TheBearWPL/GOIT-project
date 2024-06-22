@@ -178,7 +178,9 @@
     display: flex;
     flex-direction: column;
   }
-  .footer-container .social-media .footer-adress {
+  .footer-container,
+  .social-media,
+  .footer-adress,
   .footer-img {
     max-width: 349px;
     height: 179px;
