@@ -36,7 +36,7 @@
           </button>
         </div>
         <ul class="modal-list-one">
-          <li class="modal-list-element-one">
+          <li class="modal-list-element-one element-box">
             <div class="modal-title-div">
               <h3 class="modal-title-two">Strawberry Basket</h3>
               <p class="modal-par-one">Plant</p>
@@ -44,78 +44,89 @@
 
             <img
               class="modal-img-size"
-              srcset="./img/img61x.png 1x, ./img/img62x.png 2x"
-              src="./img/img61x.png"
+              srcset="./img/img61x.jpg 1x, ./img/img62x.png 2x"
+              src="./img/img61x.jpg"
               alt="box with Strawberry"
               width="88"
               height="95"
             />
-            <input
-              id="plant-order"
-              type="checkbox"
-              value="true"
-              name="plant-order"
-              class="checkbox-input visually-hidden"
-            />
-            <label for="plant-order" class="checkbox-label">
-              <svg width="6" height="6" class="modal-icon-two">
-                <use href="./img/icons.svg#icon-modalcheck1"></use>
-              </svg>
-            </label>
+
+            <div class="checkbox-order">
+              <input
+                id="plant-order"
+                type="checkbox"
+                value="true"
+                name="plant-order"
+                class="checkbox-input visually-hidden"
+              />
+              <label for="plant-order" class="checkbox-label">
+                <svg width="6" height="6" class="modal-icon-two">
+                  <use href="./img/icons.svg#icon-modalcheck1"></use>
+                </svg>
+              </label>
+            </div>
           </li>
 
-          <li class="modal-list-element-two">
-            <div class="modal-title-div-two">
+          <li class="modal-list-element-two element-box">
+            <div class="modal-title-div">
               <h3 class="modal-title-two">Apple Basket</h3>
               <p class="modal-par-one">Plant</p>
             </div>
+
             <img
-              class="modal-img-size-two"
+              class="modal-img-size"
               srcset="./img/img41x.png 1x, ./img/img42x.png 2x"
               src="./img/img41x.png"
               alt="box with Apples"
-              width="106"
+              width="88"
               height="95"
             />
-            <input
-              id="plant-order"
-              type="checkbox"
-              value="true"
-              name="plant-order"
-              class="checkbox-input visually-hidden"
-            />
-            <label for="plant-order" class="checkbox-label">
-              <svg width="6" height="6" class="modal-icon-two">
-                <use href="./img/icons.svg#icon-modalcheck1"></use>
-              </svg>
-            </label>
+
+            <div class="checkbox-order">
+              <input
+                id="plant-order"
+                type="checkbox"
+                value="true"
+                name="plant-order"
+                class="checkbox-input visually-hidden"
+              />
+              <label for="plant-order" class="checkbox-label">
+                <svg width="6" height="6" class="modal-icon-two">
+                  <use href="./img/icons.svg#icon-modalcheck1"></use>
+                </svg>
+              </label>
+            </div>
           </li>
 
-          <li class="modal-list-element-three">
-            <div class="modal-title-div-three">
+          <li class="modal-list-element-three element-box">
+            <div class="modal-title-div">
               <h3 class="modal-title-two">Fruits Basket</h3>
               <p class="modal-par-one">Plant</p>
             </div>
+
             <img
-              class="modal-img-size-three"
+              class="modal-img-size"
               srcset="./img/img81x.png 1x, ./img/img82x.png 2x"
               src="./img/img81x.png"
               alt="box with Fruits"
-              width="107"
+              width="88"
               height="95"
             />
-            <input
-              id="plant-order"
-              type="checkbox"
-              value="true"
-              name="plant-order"
-              class="checkbox-input visually-hidden"
-            />
-            <label for="plant-order" class="checkbox-label">
-              <svg width="6" height="6" class="modal-icon-two">
-                <use href="./img/icons.svg#icon-modalcheck1"></use>
-              </svg>
-            </label>
+
+            <div class="checkbox-order">
+              <input
+                id="plant-order"
+                type="checkbox"
+                value="true"
+                name="plant-order"
+                class="checkbox-input visually-hidden"
+              />
+              <label for="plant-order" class="checkbox-label">
+                <svg width="6" height="6" class="modal-icon-two">
+                  <use href="./img/icons.svg#icon-modalcheck1"></use>
+                </svg>
+              </label>
+            </div>
           </li>
         </ul>
         <div class="form-and-img">
@@ -164,6 +175,7 @@
                 ></textarea>
               </div>
             </li>
+            <button class="checkbox-button" type="submit">Submit</button>
           </ul>
 
           <div class="right-side-img">
@@ -180,8 +192,6 @@
             />
           </div>
         </div>
-
-        <button class="checkbox-button" type="submit">Submit</button>
       </div>
     </modal>
   </body>
