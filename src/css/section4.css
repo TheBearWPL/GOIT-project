@@ -32,7 +32,8 @@ body {
   box-shadow: 0px 4px 70px 0px #0000001a;
   margin-left: 20px;
   margin-right: 20px;
-  object-fit: cover;
+  position: absolute;
+  z-index: 10;
 }
 @media (min-width: 768px) {
   .heading-style {
@@ -46,15 +47,14 @@ body {
     line-height: 54px;
     margin-left: 24px;
     margin-right: 24px;
-    top: 50px;
   }
 }
 @media (min-width: 1280px) {
   .heading-one {
     line-height: 64px;
     font-size: 64px;
-    margin-right: 270px;
-    margin-left: 270px;
+    margin-right: 238px;
+    margin-left: 238px;
     height: 128px;
   }
 }
@@ -65,8 +65,7 @@ body {
 .green-style {
   margin-left: 20px;
   margin-right: 20px;
-  position: relative;
-  top: -75px;
+  margin-top: 80px;
 }
 @media (max-width: 767px) {
   .pictures-style {
@@ -91,8 +90,7 @@ body {
     margin-left: 24px;
     flex-direction: row;
     justify-content: center;
-    position: relative;
-    top: -75px;
+    margin-top: 130px;
   }
 }
 .picture-green {
@@ -120,7 +118,7 @@ body {
     gap: 24px;
     margin-right: 32px;
     margin-left: 32px;
-    top: -85px;
+    margin-top: 150px;
   }
 }
 @media (min-width: 1280px) {
@@ -145,6 +143,7 @@ body {
     gap: 80px;
     margin-left: 138px;
     margin-right: 138px;
+    margin-top: 80px;
     justify-content: center;
   }
 }
@@ -215,12 +214,29 @@ body {
   }
 }
 @media (min-width: 768px) {
-  .input-form::placeholder {
+  input::placeholder {
     color: #ffffff;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    width: 74px;
+    height: 18px;
+    top: 149px;
+    left: 124px;
+    gap: 0px;
+    opacity: 0.5px;
   }
 }
 @media (min-width: 768px) {
-  .input-form:focus-within {
+  .input-form:hover::placeholder {
     color: white;
+  }
+}
+@media (min-width: 768px) {
+  .button-form:hover {
+    color: black;
   }
 }
