@@ -14,6 +14,10 @@
   margin: 0;
 }
 
+body {
+  font-family: 'DM-sans', sans-serif;
+}
+
 :root {
   /* colors */
   --color-black: #000000;
