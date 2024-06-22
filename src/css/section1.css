@@ -67,8 +67,7 @@
     letter-spacing: -0.04em;
     text-align: left;
     color: var(--color-white);
-    margin: 44px 48px;
-    width: 279px;
+    margin: 44px 0px;
   }
 
   .green-space {
