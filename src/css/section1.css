@@ -15,7 +15,7 @@
     text-transform: uppercase;
     color: var(--color-white);
     padding: 106px 16px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 28px;
     font-weight: 500;
     line-height: 28px;
