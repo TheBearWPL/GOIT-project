@@ -34,6 +34,13 @@
     height: 509px;
     border: 1px solid #fff;
   }
+  .wrapper {
+    max-width: 335px;
+    margin-top: 49px;
+    padding: 11px 12px 14px;
+    border-radius: 500px;
+    box-shadow: 0 -2px var(--color-red), 0 1.5px 0 .4px #ffffff80;
+  }
 
   .shop-now-btn {
     display: block;
@@ -317,6 +324,11 @@
     height: 702px;
     border: 1px solid #fff;
   }
+  .wrapper {
+    margin-top: 35px;
+    max-width: 486px;
+    padding: 20px 17px;
+  }
 
   .shop-now-btn {
     display: block;
@@ -521,6 +533,9 @@
     width: 452px;
     height: 702px;
     border: 1px solid #fff;
+  }
+  .wrapper {
+    margin-top: 38px;
   }
 
   .shop-now-btn {
