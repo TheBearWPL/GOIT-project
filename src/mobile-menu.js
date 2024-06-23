@@ -5,13 +5,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
   const openMobileMenu = () => {
-    // mobileMenu.style.display = 'block';
+    hamburger.style.display = 'none';
     mobileMenu.classList.add("is-open");
+    close.style.display = 'block';
   };
 
   const closeMobileMenu = () => {
-    // mobileMenu.style.display = 'none';
+    close.style.display = 'none';
     mobileMenu.classList.remove("is-open");
+    hamburger.style.display = 'block';
   };
 
   // Nasłuchiwanie kliknięć na ikonę hamburgera
