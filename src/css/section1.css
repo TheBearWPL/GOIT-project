@@ -34,12 +34,10 @@
     height: 509px;
     border: 1px solid #fff;
   }
-  .wrapper {
-    max-width: 335px;
-    margin-top: 49px;
-    padding: 11px 12px 14px;
+  .shadow {
+    max-width: 355px;
     border-radius: 500px;
-    box-shadow: 0 -2px var(--color-red), 0 1.5px 0 .4px #ffffff80;
+    box-shadow: 0 -2px var(--color-red), 0 1.5px 0 0.4px #ffffff80;
   }
 
   .shop-now-btn {
@@ -317,17 +315,15 @@
 
   .woman {
     margin-top: 172px;
-    margin-left: 158px;
     z-index: 0;
     border-radius: 500px;
     width: 452px;
     height: 702px;
     border: 1px solid #fff;
   }
-  .wrapper {
-    margin-top: 35px;
-    max-width: 486px;
-    padding: 20px 17px;
+  .shadow {
+    max-width: 452px;
+    margin-left: 141px;
   }
 
   .shop-now-btn {
@@ -497,9 +493,9 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .contain {
-    width: 1200px;
+    width: 1280px;
     align-items: center;
   }
 
@@ -527,15 +523,16 @@
 
   .woman {
     margin-top: 172px;
-    margin-left: 414px;
     z-index: 0;
     border-radius: 500px;
     width: 452px;
     height: 702px;
     border: 1px solid #fff;
   }
-  .wrapper {
-    margin-top: 38px;
+
+  .shadow {
+    margin-left: 397px;
+    width: 486px;
   }
 
   .shop-now-btn {

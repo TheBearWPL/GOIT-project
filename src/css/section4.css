@@ -1,13 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-body {
-  background-color: #ae1332;
-  margin: 0;
-  padding: 0;
-}
 .section-four {
   background-color: #ae1332;
 }
