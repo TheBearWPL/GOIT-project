@@ -2,7 +2,6 @@
   background-color: #ae1332;
 }
 .heading-style {
-  box-shadow: 0px 4px 70px 0px #0000001a;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -21,7 +20,6 @@
   letter-spacing: -0.04em;
   color: #ffffff;
   text-transform: uppercase;
-  box-shadow: 0px 4px 70px 0px #0000001a;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -109,7 +107,7 @@
     gap: 24px;
     margin-right: 32px;
     margin-left: 32px;
-    margin-top: 150px;
+    margin-top: 89px;
   }
 }
 @media (min-width: 1280px) {
