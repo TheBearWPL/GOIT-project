@@ -1,5 +1,8 @@
 .section-fruits-3 {
   padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media only screen and (min-width: 768px) {
